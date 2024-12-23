@@ -1,0 +1,42 @@
+h1 {
+    transition: transform 0.3s;
+    text-align: center;
+}
+h1:hover {
+    transform: scale(1.2);
+}
+
+p {
+    transition: background-color 0.5s ;
+}
+p.clicked {
+    background-color: rgb(209, 42, 184);
+}
+
+#lectures-table {
+    display: none;
+}
+
+#lectures-table.tab {
+    display: block;
+    border: 20px red;
+}
+.student-photo {
+    display: block;
+    width: 200px;
+    transition: transform 0.5s ease;
+}
+
+.student-photo:hover {
+    transform: rotate(360deg);
+}
+
+.form1 {
+    font-size: 16px;
+    color: black;
+    transition: color 0.5s ;
+}
+
+.form1.set {
+    color: green;
+}
